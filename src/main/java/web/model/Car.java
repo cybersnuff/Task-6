@@ -11,17 +11,6 @@ public class Car {
     public static List<Car> carList;
 
 
-    static {
-
-        carList = new ArrayList<>();
-
-        carList.add(new Car("BMW", "Black", 2019));
-        carList.add(new Car("Lada", "Red", 2020));
-        carList.add(new Car("Reno", "Green", 2010));
-        carList.add(new Car("Toyota", "Yellow", 1997));
-        carList.add(new Car("Kia", "White", 2023));
-    }
-
     public Car(String model, String colour, int yearCreate) {
         this.model = model;
         this.colour = colour;
